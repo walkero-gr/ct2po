@@ -24,9 +24,13 @@ ct2po.py -tr app.cd -po app.pot -ln en -pn "My App 1.0"
 
 To convert a .ct file to .po the following command can be used:
 ```bash
-ct2po.py -tr app.ct -po gr.po -ln gr -pn "My App 1.0"
+ct2po.py -tr app.ct -po greek.po -ln el -pn "My App 1.0"
 ```
 
 ## Issues
 
 Please have a look at the Issues section for some features/bugs that are not implemented yet. Until they are fixed I would recommend the usage of an application like [POEdit](https://poedit.net/) which could fix those issues automatically.
+
+# Similar software
+
+Alternatively, the [cd2po.sh](https://raw.githubusercontent.com/jens-maus/yam/master/scripts/cd2po.sh) by Jens Maus can be used which generates a little bit different files, but they are more compatible with what Flexcat expects to find.
